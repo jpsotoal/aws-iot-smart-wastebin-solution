@@ -75,7 +75,7 @@ Resources:
     Properties:
       Count: 1
       Handle: !Ref IoTCertificateWaitHandle
-      Timeout: "60"
+      Timeout: "300"
 
   IoTCertificateSecret:
     Type: AWS::SecretsManager::Secret
